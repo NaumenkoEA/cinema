@@ -8,9 +8,9 @@ import (
 	"strings"
 	"text/template"
 
-	moviesModel "github.com/NaumenkoEA/Cinema-Microservices/movies/pkg/models"
-	"github.com/NaumenkoEA/Cinema-Microservices/showtimes/pkg/models"
 	"github.com/gorilla/mux"
+	moviesModel "github.com/mmorejon/microservices-docker-go-mongodb/movies/pkg/models"
+	"github.com/mmorejon/microservices-docker-go-mongodb/showtimes/pkg/models"
 )
 
 type showtimeTemplateData struct {
